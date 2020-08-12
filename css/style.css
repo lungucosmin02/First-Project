@@ -1,0 +1,172 @@
+body {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+.bg-black {
+    height: 90px;
+    background-color: #e2e3de;
+}
+
+.navbar .navcolor:hover {
+    border-bottom: 1px #464543 solid;
+    display: inline-block;
+    color: #464543;
+    padding: 5px 5px 5px 20px;
+}
+
+.navcolor {
+    color: #464543 !important;
+}
+
+.navcolor1 {
+    color: #464543 !important;
+}
+
+.navcolor1:hover {
+    border-bottom: none !important;
+    cursor: pointer;
+}
+
+.navbar-brand:hover {
+    border: none !important;
+    text-decoration: none;
+}
+
+
+/*===========Slider========*/
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-image-1 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url('../img/img181.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-image-2 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url('../img/img191.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url('../img/img11.jpg');
+    background-size: cover;
+}
+
+.carousel-image-4 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url('../img/img14.jpg');
+    background-size: cover;
+}
+
+.title-color {
+    color: #ffffff;
+}
+
+
+/*end of slider*/
+
+
+/*despre noi*/
+
+.despre p {
+    margin-top: 30px;
+}
+
+.despre-icon-color {
+    padding: 80px;
+}
+
+.despre-icon {
+    display: inline-block;
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: #000000;
+    padding: 8px 16px;
+}
+
+#despre {
+    background-color: #e2e3de;
+}
+
+.despre-icon-color i {
+    color: #464543;
+}
+
+
+/*end of despre noi*/
+
+
+/*produse*/
+
+.produse h1 {
+    padding: 70px 0 50px 0;
+}
+
+.produse {
+    background-color: #cdc7bb;
+}
+
+#produse-1 a.btn {
+    background-color: #464543;
+    border-color: #464543 !important;
+}
+
+#produse-1 a.btn:hover {
+    background-color: #62605c;
+}
+
+.icon-center {
+    text-align: center;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+}
+
+.produse i {
+    margin-bottom: 5px;
+    color: #464543;
+}
+
+.produse img {
+    border-bottom: 1px solid #464543;
+}
+
+.produse p {
+    height: 100px;
+}
+
+
+/*end of produse*/
+
+
+/*footer*/
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #464543;
+    color: #cdc7bb;
+}
+
+.footer h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer-icon i {
+    font-size: 20px;
+    margin: 1px 15px;
+}
+
+
+/*end of footer*/

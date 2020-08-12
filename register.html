@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="icon" href="img/cat-solid.svg" type="image/gif" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/cfa57aadaf.js" crossorigin="anonymous"></script>
+    <!--Font-->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="listeners.js"></script>
+    <title>ECO CAT</title>
+    <link rel="icon" href="img/cat-solid.svg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <title>Register Form</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-black">
+        <div class="container black-text">
+            <a href="#" class="navbar-brand navcolor1"><i class="fas fa-cat fa-2x"></i>Eco Cat</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link navcolor">Acasa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#despre" class="nav-link navcolor">Despre noi</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#produse" class="nav-link navcolor">Produse</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link navcolor">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="register.html" class="nav-link navcolor">Inregistreaza-te</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="loginbox">
+        <h1>Inregistreaza-te!</h1>
+        <form action="insert.php" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        Nume:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Nume si Prenume" name="username" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Parola:
+                    </td>
+                    <td>
+                        <input type="Password" placeholder="Parola" name="password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email:
+                    </td>
+                    <td>
+                        <input type="email" placeholder="Email" name="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Adresa:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Strada, Nr, Et, Ap" name="adress" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Telefon:
+                    </td>
+                    <td>
+                        <select name="phoneCode" required>
+                    <options selected hidden>Select Code</option>
+                    <option value="+40">+40</option>
+                    <option value="+373">+373</option>       
+                </select>
+                        </br>
+                        <input type="Phone" placeholder="Nr. Telefon" name="phone" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="submit"><input type="Submit" value="Submit" name=""></p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
